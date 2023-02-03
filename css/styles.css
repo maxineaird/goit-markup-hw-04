@@ -203,11 +203,7 @@ img {
 
 .header-tel:hover,
 .header-tel:focus {
-  color: var(--second-color);
-}
-
-.header-tel:active {
-  color: var(--fifth-color);
+  color: var(--btn-active-color);
 }
 
 /*---------------------- HERO */
