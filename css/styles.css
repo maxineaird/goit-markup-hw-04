@@ -165,11 +165,7 @@ img {
 
 .header-link:hover,
 .header-link:focus {
-  color: var(--second-color);
-}
-
-.header-link:active {
-  color: var(--fifth-color);
+  color: var(--btn-active-color);
 }
 
 .address {
@@ -193,11 +189,7 @@ img {
 
 .header-mail:hover,
 .header-mail:focus {
-  color: var(--second-color);
-}
-
-.header-mail:active {
-  color: var(--fifth-color);
+  color: var(--btn-active-color);
 }
 
 .header-tel {
@@ -275,10 +267,8 @@ img {
 
 /* --------------------------- FEATURES */
 
-.features {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+/* .features {
+} */
 
 .features-list {
   display: flex;
@@ -316,11 +306,13 @@ img {
 
 /* ----------------------------- WORK */
 
-/* .work {
-} */
+.work {
+  padding-bottom: 120px;
+}
 
 .section {
   max-width: 100%;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -342,8 +334,6 @@ img {
 /* ----------------------------- TEAM */
 
 .team {
-  max-width: 1440px;
-  margin: 0 auto;
   background-color: #f4f4fd;
 }
 
@@ -363,6 +353,7 @@ img {
 
 .team-list-item {
   width: calc((100% - 96px) / 4);
+  background: #FFFFFF;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
